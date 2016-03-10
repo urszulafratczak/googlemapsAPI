@@ -1,0 +1,57 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#header {
+	height: 60px;
+	font-family: Georgia;
+	font-size: 40px;
+	text-align: center;
+	background-color: #9BD678;
+	padding-top: 10px;
+}
+
+body {
+	background-color: #F8FFCF;
+}
+
+#maps, #drawButton {
+	margin-left: 30%;
+}
+
+#maps {
+	margin-top: 2%;
+}
+
+#drawButton {
+	background-color: #2C6E4C;
+	height: 50px; 
+	width: 600px;
+	text-align: center;
+	font-size: 30px;
+	color: #F8FFCF;
+	font-style: italic;
+	font-family: Georgia;
+	padding-top: 15px;
+	margin-bottom: 2%;
+}
+
+#drawButton:hover {
+	background-color: #F4FF67;
+	color: #2C6E4C;
+	border-style: solid;
+    border-color: #2C6E4C;
+    border-width: 1px;
+}
+
+#footer {
+	height: 35px;
+	padding-top: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	background-color: #9BD678;
+}
+
