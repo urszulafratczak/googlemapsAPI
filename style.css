@@ -1,8 +1,21 @@
+/*
+ *	settings of margin and padding for all elements 
+ */
 * {
 	margin: 0px;
 	padding: 0px;
 }
 
+/*
+ *	set body background color 
+ */
+body {
+	background-color: #F8FFCF;
+}
+
+/*
+ * 	set of height, font, background color for div with id = 'header'
+ */
 #header {
 	height: 60px;
 	font-family: Georgia;
@@ -12,18 +25,24 @@
 	padding-top: 10px;
 }
 
-body {
-	background-color: #F8FFCF;
-}
-
+/*
+ * 	set left margin for dives with id = "maps" and "drawButton"
+ */ 
 #maps, #drawButton {
 	margin-left: 30%;
 }
 
+/*
+ * 	set top margin of div with id = "maps"
+ */ 
 #maps {
 	margin-top: 2%;
 }
 
+/*
+ * 	set background color, width, height, font properties, and margin 
+ * 	for div with id = "drawButton"
+ */	 
 #drawButton {
 	background-color: #2C6E4C;
 	height: 50px; 
@@ -35,8 +54,13 @@ body {
 	font-family: Georgia;
 	padding-top: 15px;
 	margin-bottom: 2%;
+	cursor: pointer;
 }
 
+/*
+ * 	set properties of div with id = "drawButton"
+ *  which shows where mouse is over this div
+ */  
 #drawButton:hover {
 	background-color: #F4FF67;
 	color: #2C6E4C;
@@ -45,6 +69,9 @@ body {
     border-width: 1px;
 }
 
+/*
+ * 	set font properties, background color and height of div with id = "footer"
+ */ 
 #footer {
 	height: 35px;
 	padding-top: 5px;
